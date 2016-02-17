@@ -29,6 +29,7 @@ typedef BOOL(^MGSwipeButtonCallback)(MGSwipeTableCell * sender);
  * Convenience static constructors
  */
 +(instancetype) buttonWithTitle:(NSString *) title backgroundColor:(UIColor *) color;
++(instancetype) buttonWithTitle:(NSString *) title backgroundColor:(UIColor *) color font:(UIFont *) font;
 +(instancetype) buttonWithTitle:(NSString *) title backgroundColor:(UIColor *) color padding:(NSInteger) padding;
 +(instancetype) buttonWithTitle:(NSString *) title backgroundColor:(UIColor *) color insets:(UIEdgeInsets) insets;
 +(instancetype) buttonWithTitle:(NSString *) title backgroundColor:(UIColor *) color callback:(MGSwipeButtonCallback) callback;
